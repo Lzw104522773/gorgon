@@ -1,5 +1,5 @@
 The Gorgon's Eye
-V.4.5
+V.4.6
 
 ============
 Mod Overview
@@ -25,6 +25,14 @@ The component "Add more pickpocketable items" will distribute random treasure to
 ===============
 Version History
 ===============
+Version 4.6:
+-Added traified dialog (Thanks to JohnBob)
+-Added Simplified Chinese translation by Lzw104522773 and proofread (still in progress) by Esceen
+-Fixed bug in "Order of the Black Lotus" where the forced encounter would not activate
+-Removed a missed forced time skip 
+-Corrected various typos
+
+
 Version 4.5:
 -Fixed issue where Valera would not respawn after the first night in the quest "Shadows and Echoes"
 -Fixed bug where Imoen's interjections would not work on EET

@@ -1,7 +1,7 @@
 BACKUP ~gorgon/backup~
 AUTHOR ~TotalMilk90~
 
-VERSION ~v4.5~
+VERSION ~v4.6~
 
 AUTO_TRA ~gorgon/lang/%s/d~
 AUTO_TRA ~gorgon/lang/%s/danika~
