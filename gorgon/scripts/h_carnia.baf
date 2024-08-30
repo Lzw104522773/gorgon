@@ -14,7 +14,6 @@ IF
          Global("h_SpawnQuass","GLOBAL",1)
 THEN
          RESPONSE #100
-                  DayNight(MIDNIGHT)
                   CreateCreature("h_quassc",[4397.2266],E)
                   CreateCreature("h_sthiec",[4444.2206],E)
                   CreateCreature("h_sthiec",[4444.2326],E)
