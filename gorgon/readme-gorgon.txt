@@ -1,5 +1,5 @@
 The Gorgon's Eye
-V.4.6
+V.4.7
 
 ============
 Mod Overview
@@ -25,6 +25,10 @@ The component "Add more pickpocketable items" will distribute random treasure to
 ===============
 Version History
 ===============
+Version 4.7:
+-Added complete Simplified Chinese translation by Lzw104522773 and proofread by Esceen
+-Fixed bug where Valera would respawn after finishing the quest "Shadows and Echoes"
+
 Version 4.6:
 -Added traified dialog (Thanks to JohnBob)
 -Added Simplified Chinese translation by Lzw104522773 and proofread (still in progress) by Esceen

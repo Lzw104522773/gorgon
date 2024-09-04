@@ -52,6 +52,7 @@ IF ~~ THEN BEGIN 9
    SAY @64018 /* So be it, <CHARNAME>. If this is the path you choose, then let the shadows bear witness to our dance. */
 IF ~~ THEN DO ~
    SetGlobal("h_KilledValera","GLOBAL",1)
+   SetGlobal("h_StopRespawningVelera","GLOBAL",1)
    AddJournalEntry(@526,QUEST)
    Enemy()~ EXIT
 END
@@ -61,6 +62,7 @@ IF ~~ THEN BEGIN 10
 IF ~~ THEN DO ~
    SetGlobal("h_BlackLeave","GLOBAL",0)
    SetGlobal("h_ValeraQuest","GLOBAL",1)
+   SetGlobal("h_StopRespawningVelera","GLOBAL",1)
    ClearAllActions()
    StartCutSceneMode()
    StartCutScene("h_valcut")~ EXIT

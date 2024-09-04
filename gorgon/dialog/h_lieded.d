@@ -1477,9 +1477,9 @@ IF ~~ THEN BEGIN 294
    SAY @6411 /* Now, is there something else you're curious about? Another chapter in our little exchange, perhaps? */
        +~Global("h_LiedelTalk22","GLOBAL",0)~+ @6412 /* Do you have any hobbies or interests outside the world of thieving and assassinations? */ DO ~SetGlobal("h_LiedelTalk22","GLOBAL",1)~ GOTO 295
        +~Global("h_LiedelTalk23","GLOBAL",0)~+ @6413 /* Are there any secret corners of Beregost that you're particularly fond of? */ DO ~SetGlobal("h_LiedelTalk23","GLOBAL",1)~ GOTO 307
-       +~GlobalLT("h_LiedelLove","GLOBAL",14)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
-       +~GlobalGT("h_LiedelLove","GLOBAL",13) Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 318
-       +~GlobalGT("h_LiedelLove","GLOBAL",13) !Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
+       +~GlobalLT("h_LiedelLove","GLOBAL",15)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
+       +~GlobalGT("h_LiedelLove","GLOBAL",14) Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 318
+       +~GlobalGT("h_LiedelLove","GLOBAL",14) !Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
 END
 
 IF ~~ THEN BEGIN 295
@@ -1494,9 +1494,9 @@ IF ~~ THEN BEGIN 296
    SAY @6420 /* Actually, you know what, let's keep it a mystery for now. There are other things we could discuss, after all. What else is on your mind, love? */
        +~Global("h_LiedelTalk22","GLOBAL",0)~+ @6412 /* Do you have any hobbies or interests outside the world of thieving and assassinations? */ DO ~SetGlobal("h_LiedelTalk22","GLOBAL",1)~ GOTO 295
        +~Global("h_LiedelTalk23","GLOBAL",0)~+ @6413 /* Are there any secret corners of Beregost that you're particularly fond of? */ DO ~SetGlobal("h_LiedelTalk23","GLOBAL",1)~ GOTO 307
-       +~GlobalLT("h_LiedelLove","GLOBAL",14)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
-       +~GlobalGT("h_LiedelLove","GLOBAL",13) Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 318
-       +~GlobalGT("h_LiedelLove","GLOBAL",13) !Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
+       +~GlobalLT("h_LiedelLove","GLOBAL",15)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
+       +~GlobalGT("h_LiedelLove","GLOBAL",14) Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 318
+       +~GlobalGT("h_LiedelLove","GLOBAL",14) !Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
 END
 
 IF ~~ THEN BEGIN 297
@@ -1524,9 +1524,9 @@ IF ~~ THEN BEGIN 301
        +~Global("h_LiedelTalk21","GLOBAL",0)~+ @6374 /* You mentioned the Night Knives earlier. Interested in sharing the rest of that story? */ DO ~SetGlobal("h_LiedelTalk21","GLOBAL",1)~ GOTO 266
        +~Global("h_LiedelTalk22","GLOBAL",0)~+ @6412 /* Do you have any hobbies or interests outside the world of thieving and assassinations? */ DO ~SetGlobal("h_LiedelTalk22","GLOBAL",1)~ GOTO 295
        +~Global("h_LiedelTalk23","GLOBAL",0)~+ @6413 /* Are there any secret corners of Beregost that you're particularly fond of? */ DO ~SetGlobal("h_LiedelTalk23","GLOBAL",1)~ GOTO 307
-       +~GlobalLT("h_LiedelLove","GLOBAL",14)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
-       +~GlobalGT("h_LiedelLove","GLOBAL",13) Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 318
-       +~GlobalGT("h_LiedelLove","GLOBAL",13) !Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
+       +~GlobalLT("h_LiedelLove","GLOBAL",15)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
+       +~GlobalGT("h_LiedelLove","GLOBAL",14) Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 318
+       +~GlobalGT("h_LiedelLove","GLOBAL",14) !Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
 END
 
 IF ~~ THEN BEGIN 302
@@ -1549,9 +1549,9 @@ IF ~~ THEN BEGIN 306
    SAY @6434 /* But enough about that, my dear companion. What other enticing thoughts are occupying your mind, I wonder? */
        +~Global("h_LiedelTalk22","GLOBAL",0)~+ @6412 /* Do you have any hobbies or interests outside the world of thieving and assassinations? */ DO ~SetGlobal("h_LiedelTalk22","GLOBAL",1)~ GOTO 295
        +~Global("h_LiedelTalk23","GLOBAL",0)~+ @6413 /* Are there any secret corners of Beregost that you're particularly fond of? */ DO ~SetGlobal("h_LiedelTalk23","GLOBAL",1)~ GOTO 307
-       +~GlobalLT("h_LiedelLove","GLOBAL",14)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
-       +~GlobalGT("h_LiedelLove","GLOBAL",13) Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 318
-       +~GlobalGT("h_LiedelLove","GLOBAL",13) !Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
+       +~GlobalLT("h_LiedelLove","GLOBAL",15)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
+       +~GlobalGT("h_LiedelLove","GLOBAL",14) Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 318
+       +~GlobalGT("h_LiedelLove","GLOBAL",14) !Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
 END
 
 IF ~~ THEN BEGIN 307
@@ -1589,9 +1589,9 @@ IF ~~ THEN BEGIN 314
    SAY @6445 /* But enough about my secret hideaways in Beregost. The hour grows late, dear companion. Is there anything else you'd like to discuss? */
        +~Global("h_LiedelTalk22","GLOBAL",0)~+ @6412 /* Do you have any hobbies or interests outside the world of thieving and assassinations? */ DO ~SetGlobal("h_LiedelTalk22","GLOBAL",1)~ GOTO 295
        +~Global("h_LiedelTalk23","GLOBAL",0)~+ @6413 /* Are there any secret corners of Beregost that you're particularly fond of? */ DO ~SetGlobal("h_LiedelTalk23","GLOBAL",1)~ GOTO 307
-       +~GlobalLT("h_LiedelLove","GLOBAL",14)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
-       +~GlobalGT("h_LiedelLove","GLOBAL",13) Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 318
-       +~GlobalGT("h_LiedelLove","GLOBAL",13) !Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
+       +~GlobalLT("h_LiedelLove","GLOBAL",15)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
+       +~GlobalGT("h_LiedelLove","GLOBAL",14) Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 318
+       +~GlobalGT("h_LiedelLove","GLOBAL",14) !Gender(Player1,MALE)~+ @6414 /* I hate to cut this short, Liedel, but the shadows beckon. */ GOTO 315
 END
 
 IF ~~ THEN BEGIN 315
@@ -1930,9 +1930,9 @@ IF ~Global("h_LiedelQuest","GLOBAL",6) GlobalLT("h_BountyNumber","GLOBAL",9)~ TH
        +~Global("h_AlaricBountyEnd","GLOBAL",0)~+ @6536 /* I'd like to discuss the bounty on Alaric. */ GOTO 383
        +~Global("h_VarlindBountyEnd","GLOBAL",0)~+ @6537 /* I'd like to discuss the bounty on Lord Varlind. */ GOTO 395
        +~Global("h_IslaBountyEnd","GLOBAL",0)~+ @6538 /* I'd like to discuss the bounty on Isla. */ GOTO 407
-       +~Global("h_IslaBounty","GLOBAL",2) GlobalLT("h_LiedelLove","GLOBAL",18)~+ @6538 /* I'd like to discuss the bounty on Isla. */ DO ~AddJournalEntry(@461,QUEST_DONE)~ GOTO 416
-       +~Global("h_IslaBounty","GLOBAL",2) GlobalGT("h_LiedelLove","GLOBAL",17) Global("h_LiedelKiss","GLOBAL",0)~+ @6538 /* I'd like to discuss the bounty on Isla. */ DO ~AddJournalEntry(@461,QUEST_DONE)~ GOTO 416
-       +~Global("h_IslaBounty","GLOBAL",2) GlobalGT("h_LiedelLove","GLOBAL",17) Global("h_LiedelKiss","GLOBAL",1)~+ @6538 /* I'd like to discuss the bounty on Isla. */ GOTO 420
+       +~Global("h_IslaBounty","GLOBAL",2) GlobalLT("h_LiedelLove","GLOBAL",19)~+ @6538 /* I'd like to discuss the bounty on Isla. */ DO ~AddJournalEntry(@461,QUEST_DONE)~ GOTO 416
+       +~Global("h_IslaBounty","GLOBAL",2) GlobalGT("h_LiedelLove","GLOBAL",18) Global("h_LiedelKiss","GLOBAL",0)~+ @6538 /* I'd like to discuss the bounty on Isla. */ DO ~AddJournalEntry(@461,QUEST_DONE)~ GOTO 416
+       +~Global("h_IslaBounty","GLOBAL",2) GlobalGT("h_LiedelLove","GLOBAL",18) Global("h_LiedelKiss","GLOBAL",1)~+ @6538 /* I'd like to discuss the bounty on Isla. */ GOTO 420
        ++ @6120 /* I'll be going now. */ EXIT
 END
 
@@ -1941,9 +1941,9 @@ IF ~~ THEN BEGIN 382
        +~Global("h_AlaricBountyEnd","GLOBAL",0)~+ @6536 /* I'd like to discuss the bounty on Alaric. */ GOTO 383
        +~Global("h_VarlindBountyEnd","GLOBAL",0)~+ @6537 /* I'd like to discuss the bounty on Lord Varlind. */ GOTO 395
        +~Global("h_IslaBountyEnd","GLOBAL",0)~+ @6538 /* I'd like to discuss the bounty on Isla. */ GOTO 407
-       +~Global("h_IslaBounty","GLOBAL",2) GlobalLT("h_LiedelLove","GLOBAL",18)~+ @6538 /* I'd like to discuss the bounty on Isla. */ DO ~AddJournalEntry(@461,QUEST_DONE)~ GOTO 416
-       +~Global("h_IslaBounty","GLOBAL",2) GlobalGT("h_LiedelLove","GLOBAL",17) Global("h_LiedelKiss","GLOBAL",0)~+ @6538 /* I'd like to discuss the bounty on Isla. */ DO ~AddJournalEntry(@461,QUEST_DONE)~ GOTO 416
-       +~Global("h_IslaBounty","GLOBAL",2) GlobalGT("h_LiedelLove","GLOBAL",17) Global("h_LiedelKiss","GLOBAL",1)~+ @6538 /* I'd like to discuss the bounty on Isla. */ GOTO 420
+       +~Global("h_IslaBounty","GLOBAL",2) GlobalLT("h_LiedelLove","GLOBAL",19)~+ @6538 /* I'd like to discuss the bounty on Isla. */ DO ~AddJournalEntry(@461,QUEST_DONE)~ GOTO 416
+       +~Global("h_IslaBounty","GLOBAL",2) GlobalGT("h_LiedelLove","GLOBAL",18) Global("h_LiedelKiss","GLOBAL",0)~+ @6538 /* I'd like to discuss the bounty on Isla. */ DO ~AddJournalEntry(@461,QUEST_DONE)~ GOTO 416
+       +~Global("h_IslaBounty","GLOBAL",2) GlobalGT("h_LiedelLove","GLOBAL",18) Global("h_LiedelKiss","GLOBAL",1)~+ @6538 /* I'd like to discuss the bounty on Isla. */ GOTO 420
        ++ @6122 /* There is nothing else I require at this time. */ EXIT
 END
 
@@ -2312,10 +2312,10 @@ END
 
 IF ~~ THEN BEGIN 449
    SAY @6615 /* And so, I fled, leaving behind a trail of shadows and blood. The winds of fate carried me to Beregost, where the past fades, and the future awaits, uncertain, but filled with possibility. */
-       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",17)~+ @6616 /* You're not defined by your past, Liedel. You're here now, with me, and that's what matters. */ DO ~IncrementGlobal("h_LiedelLove","GLOBAL",1)~ GOTO 450
-       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",17)~+ @6617 /* You joined the Night Knives for the thrill, but it seems there was still a code of honor you held onto. I find that admirable, Liedel. */ GOTO 451
-       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",17)~+ @6618 /* You've been through so much, Liedel, and yet you stand tall. You're a survivor, and I'm proud to be by your side. */ DO ~IncrementGlobal("h_LiedelLove","GLOBAL",1)~ GOTO 452
-       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",17)~+ @6619 /* She chose her side, just as you chose yours. It was only a matter of time before you did what needed to be done. */ GOTO 453
+       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",18)~+ @6616 /* You're not defined by your past, Liedel. You're here now, with me, and that's what matters. */ DO ~IncrementGlobal("h_LiedelLove","GLOBAL",1)~ GOTO 450
+       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",18)~+ @6617 /* You joined the Night Knives for the thrill, but it seems there was still a code of honor you held onto. I find that admirable, Liedel. */ GOTO 451
+       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",18)~+ @6618 /* You've been through so much, Liedel, and yet you stand tall. You're a survivor, and I'm proud to be by your side. */ DO ~IncrementGlobal("h_LiedelLove","GLOBAL",1)~ GOTO 452
+       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",18)~+ @6619 /* She chose her side, just as you chose yours. It was only a matter of time before you did what needed to be done. */ GOTO 453
        ++ @6620 /* You're a force to be reckoned with, a survivor through and through. But what about the Night Knives? Did they continue to hunt you after you fled? */ GOTO 458
        ++ @6621 /* You've faced darkness head-on, and emerged stronger for it. But what became of the Night Knives after you left? */ GOTO 458
 END
@@ -2353,7 +2353,7 @@ IF ~~ THEN BEGIN 457
        ++ @6630 /* I'm glad to be part of your story. You've faced darkness head-on, and emerged stronger for it. But what became of the Night Knives after you left? */ GOTO 458
        ++ @6620 /* You're a force to be reckoned with, a survivor through and through. But what about the Night Knives? Did they continue to hunt you after you fled? */ GOTO 458
 END
-   
+
 IF ~~ THEN BEGIN 458
    SAY @6631 /* They didn't take kindly to my abrupt departure, I assure you. Their best trackers were hot on my trail, relentless shadows in pursuit of their wayward comrade. */ IF ~~ THEN GOTO 459
 END
@@ -2384,9 +2384,9 @@ END
 
 IF ~~ THEN BEGIN 465
    SAY @6638 /* The Night Knives may still seek me, but they underestimate the strength forged in the crucible of their own treachery. The hunted became the hunter, and I, my dear, refuse to be prey again. */
-       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",17)~+ @6639 /* Rigaldo, huh? The man of the hour, it seems. */ GOTO 466
-       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",17)~+ @6640 /* I knew you two shared a history. I'm here for you, Liedel, no matter what came before. */ GOTO 467
-       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",17)~+ @6641 /* You've overcome so much, Liedel. You're not alone anymore. We'll face whatever challenges come our way, together. */ GOTO 468
+       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",18)~+ @6639 /* Rigaldo, huh? The man of the hour, it seems. */ GOTO 466
+       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",18)~+ @6640 /* I knew you two shared a history. I'm here for you, Liedel, no matter what came before. */ GOTO 467
+       +~OR(2) Global("h_LiedelKiss","GLOBAL",1) Global("h_LiedelSexArena","GLOBAL",1) GlobalGT("h_LiedelLove","GLOBAL",18)~+ @6641 /* You've overcome so much, Liedel. You're not alone anymore. We'll face whatever challenges come our way, together. */ GOTO 468
        ++ @6642 /* It's funny how life can lead us to unexpected places. Beregost wasn't in your plans then, was it? */ GOTO 469
        ++ @6643 /* Your past with the Night Knives sounds like a tale of resilience and cunning. What do you make of this new chapter in Beregost? */ GOTO 469
 END
@@ -2419,8 +2419,8 @@ END
 
 IF ~~ THEN BEGIN 472
    SAY @6652 /* Go ahead, <CHARNAME>, ask your question. I can't promise I'll answer, but I'm intrigued to hear what you want to know. */
-       +~GlobalLT("h_LiedelLove","GLOBAL",18)~+ @6653 /* I wanted to talk to you about what happened between us the other night. */ GOTO 474
-       +~GlobalGT("h_LiedelLove","GLOBAL",17)~+ @6653 /* I wanted to talk to you about what happened between us the other night. */ GOTO 489
+       +~GlobalLT("h_LiedelLove","GLOBAL",19)~+ @6653 /* I wanted to talk to you about what happened between us the other night. */ GOTO 474
+       +~GlobalGT("h_LiedelLove","GLOBAL",18)~+ @6653 /* I wanted to talk to you about what happened between us the other night. */ GOTO 489
        ++ @6654 /* Actually, nevermind. It's nothing. I should probably get going. We can talk more some other time. */ GOTO 473
 END
 

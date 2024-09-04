@@ -239,6 +239,7 @@ END
 IF
          TimeOfDay(NIGHT)
          Global("h_SpawnVelera","GLOBAL",1)
+         Global("h_StopRespawningVelera","GLOBAL",0)
          //HasItem("h_misc22","Container 9")
 
 THEN
