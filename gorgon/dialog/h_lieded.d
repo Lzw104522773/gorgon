@@ -4,7 +4,7 @@ IF ~Global("h_LiedelQuest","GLOBAL",0)~ THEN BEGIN 0
    SAY @6000 /* Well, look at you, a fresh face in our little den of shadows. Quite the promising sight, if I do say so. */ IF ~~ THEN EXIT
 END
 
-IF ~Global("h_LiedelQuest","GLOBAL",1)~ THEN BEGIN 1
+IF ~Global("h_LiedelQuest","GLOBAL",1) GlobalLT("h_LiedelTalk","GLOBAL",2)~ THEN BEGIN 1
    SAY @6001 /* Ah, so the shadows have whispered a new tale, and here you stand at its center. A rare choice, to tread our path, one where peril and promise are entwined. */ IF ~~ THEN GOTO 2
 END
 
@@ -238,7 +238,7 @@ IF ~~ THEN DO ~
    SetGlobal("h_LiedelTalk","GLOBAL",2)~ EXIT
 END
 
-IF ~Global("h_LiedelTalk","GLOBAL",2)~ THEN BEGIN 52
+IF ~Global("h_LiedelQuest","GLOBAL",1) Global("h_LiedelTalk","GLOBAL",2)~ THEN BEGIN 52
    SAY @6078 /* So, the enigmatic wanderer of our darkened corridors returns. Your visits always carry a hint of mystery, stirring the still air of our secret haven. */ IF ~~ THEN GOTO 53
 END
 
@@ -366,6 +366,7 @@ IF ~~ THEN BEGIN 79
    SAY @6115 /* That is all I have for the present. Return to me once you've made your mark on the shadows, my dear. I eagerly await your return. */
 IF ~~ THEN DO ~
    SetGlobal("h_LiedelQuest","GLOBAL",2)
+   SetGlobal("h_LiedelTalk","GLOBAL",3)
    AddJournalEntry(@410,QUEST)
    AddJournalEntry(@415,QUEST)
    AddJournalEntry(@419,QUEST)~ EXIT
